@@ -4,7 +4,7 @@
 }
 
 .menubar {
-    background-color: pink;
+    background-color: beige;
     border: solid black;
     height: 2vh;
     margin: 15px;
@@ -22,11 +22,13 @@
 }
 
 .linkverti{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: inline-block;
     width: 10vh;
     position: relative;
-    bottom: 40px;
+    bottom: 400px;
     border: solid black;
+    background-color: aliceblue;
 }
 
 .verti a{
@@ -35,16 +37,28 @@
 }
 
 .maincunt {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: inline-block;
-    height: 50vh;
+    height: 85vh;
     width: 80vw;
     border: solid black;
+    background-color: rgb(229, 197, 229);
+}
+
+.maincunt h1 span {
+    color: lightcoral;
+}
+
+.image {
+    text-align: center;
 }
 
 .third {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: inline-block;
     width: 10vh;
     border: solid black;
     position: relative;
-    bottom: 50px;
+    bottom: 372px;
+    background-color: azure;
 }
